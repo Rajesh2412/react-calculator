@@ -20,11 +20,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "author": "",
+  "author": "Rajesh2412",
   "license": "",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/Rajesh2412/react-calculator.git"
   },
   "eslintConfig": {
     "extends": [
