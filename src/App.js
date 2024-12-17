@@ -16,8 +16,7 @@ const App = () => {
             return;
         }
 
-        setCalc(calc + val)
-
+        setCalc(calc + val) ;
         if (!operators.includes(val)) {
             try {
                 setResult(eval(calc + val).toString());
@@ -50,7 +49,7 @@ const App = () => {
 
                 case 9:
                     digits.push(
-                        <Button handleClick={() => updateCalc('×')} value="×" />
+                        <Button handleClick={() => updateCalc('*')} value="×" />
                     )
             }
         }
